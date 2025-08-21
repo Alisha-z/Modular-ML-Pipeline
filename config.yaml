@@ -1,0 +1,24 @@
+data:
+  raw_data_path: "data/raw/processed.cleveland.csv"  # Adjust the path as necessary
+
+problem_type: "classification"  # or "regression"
+
+classification_models:
+  - name: "Logistic Regression"
+    params:
+      C: 1.0
+      solver: "lbfgs"
+  - name: "Random Forest"
+    params:
+      n_estimators: 100
+      max_depth: 10
+
+regression_models:
+  - name: "Linear Regression"
+    params: {}
+  - name: "Random Forest Regressor"
+    params:
+      n_estimators: 100
+      max_depth: 10
+
+# Add any other necessary configurations

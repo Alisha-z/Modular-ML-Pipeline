@@ -1,0 +1,10 @@
+# Core libraries
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+joblib
+
+# Optional (for better CLI or logging)
+tqdm
